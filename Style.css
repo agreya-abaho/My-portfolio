@@ -365,3 +365,18 @@ body.dark-mode .home-text h1 {
 .my-email a:hover {
     text-decoration: underline;
 }
+.whatsapp-btn {
+    display: inline-block;
+    background-color: #25D366;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.whatsapp-btn:hover {
+    background-color: #128C7E;
+    transform: scale(1.05);
+}
