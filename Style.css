@@ -380,3 +380,18 @@ body.dark-mode .home-text h1 {
     background-color: #128C7E;
     transform: scale(1.05);
 }
+.social-btn {
+    display: inline-block;
+    background-color: #24292e;
+    color: purple;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.social-btn:hover {
+    background-color: #3f1212;
+    transform: scale(1.05);
+}
