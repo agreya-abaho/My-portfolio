@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Abaho Agrey - Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation bar -->
+    <header>
+        <nav class="navbar">
+
+            <h2 class="logo">Bah@grey</h2>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button id="menuBtn" class="menu-btn">☰</button>
+            <button id="themeBtn" class="theme-btn">
+    🌙 Dark Mode
+</button>
+
+        </nav>
+    </header>
+
+    <!-- Home section -->
+    <section id="home" class="home">
+
+        <div class="home-text">
+
+            <h3>Hello, welcome to my website.</h3>
+
+            <h1>I'm Abaho Agrey</h1>
+
+            <h2>Computer Science Student</h2>
+
+            <p>
+                I am learning web development and interested
+                in creating websites and solving problems
+                through technology.
+            </p>
+
+            <a href="#projects" class="btn">View My Work</a>
+
+        </div>
+
+        <div class="home-image">
+            <img src="images/AG1.jpeg" alt="My profile picture">
+        </div>
+
+    </section>
+
+    <!-- About section -->
+    <section id="about" class="about">
+
+        <h2>About Me</h2>
+
+        <p>
+            My name is Abaho Agrey. I am a Diploma in
+            Computer Science student at YMCA.
+
+            I enjoy learning about computers, programming
+            and web development. My ambition is to become
+            a skilled software developer.
+        </p>
+
+    </section>
+
+<section id="skills" class="skills">
+
+    <h2>My Technical Skills</h2>
+
+    <div class="skill-box">
+
+        <div class="skill-info">
+            <span>HTML</span>
+            <span>80%</span>
+        </div>
+        <div class="skill-bar">
+            <div class="skill-progress html"></div>
+        </div>
+
+        <div class="skill-info">
+            <span>CSS</span>
+            <span>65%</span>
+        </div>
+        <div class="skill-bar">
+            <div class="skill-progress css"></div>
+        </div>
+
+        <div class="skill-info">
+            <span>JavaScript</span>
+            <span>40%</span>
+        </div>
+        <div class="skill-bar">
+            <div class="skill-progress javascript"></div>
+        </div>
+
+        <div class="skill-info">
+            <span>Computer Applications</span>
+            <span>70%</span>
+        </div>
+        <div class="skill-bar">
+            <div class="skill-progress computer"></div>
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- Projects section -->
+    <section id="projects" class="projects">
+
+        <h2>My Projects</h2>
+
+        <div class="project-list">
+
+            <div class="project">
+                <h3>Personal Portfolio</h3>
+                <p>A website that introduces me and my work.</p>
+            </div>
+
+            <div class="project">
+                <h3>Online Library</h3>
+                <p>A website for displaying books and information.</p>
+            </div>
+
+            <div class="project">
+                <h3>Student Timetable</h3>
+                <p>A simple webpage showing a weekly timetable.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="contact" class="contact">
+
+    <h2>Contact Me</h2>
+    <p class="my-email">
+    Email me:
+    <a href="mailto:agreyabaho06@gmail.com">
+        agreyabaho06@gmail.com
+    </a>
+</p>
+
+    <p>Feel free to send me a message.</p>
+
+    <form id="contactForm">
+
+        <input type="text" id="name"
+        placeholder="Your Name" required>
+
+        <input type="email" id="email"
+        placeholder="Your Email" required>
+
+        <textarea id="message"
+        placeholder="Write your message"
+        required></textarea>
+
+        <button type="submit" class="btn">
+            Send Message
+        </button>
+
+        <p id="response"></p>
+
+    </form>
+
+</section>
+    <!-- Footer -->
+    <footer>
+        <p>Copyright &copy; 2026 Abaho Agrey</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
