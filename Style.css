@@ -395,3 +395,35 @@ body.dark-mode .home-text h1 {
     background-color: #3f1212;
     transform: scale(1.05);
 }
+.social-links {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.social-links p {
+    margin-bottom: 20px;
+}
+
+.whatsapp-btn,
+.social-btn {
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 8px;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.whatsapp-btn {
+    background-color: #25D366;
+}
+
+.social-btn {
+    background-color: #24292e;
+}
+
+.whatsapp-btn:hover,
+.social-btn:hover {
+    opacity: 0.8;
+}
